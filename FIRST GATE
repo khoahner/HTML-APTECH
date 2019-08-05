@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML SIMPLE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .ava {
+        margin: 70px;
+        }
+        .infor {
+        margin: 70px;
+        }
+        .contact {
+        margin: 70px;
+        }
+        #a {
+            border: 2px solid orange;
+            padding: 50px 100px 50px 100px;
+            display: inline-block;
+        }
+        #a1 {
+            border: 2px solid orangered;
+            padding: 50px 300px 50px 500px;
+            display: inline-block;
+        }
+        #i {
+            border: 2px solid orange;
+            padding: 50px 81.5px 50px 82px;
+            display: inline-block;
+        }
+        #i1 {
+            border: 2px solid orangered;
+            padding: 50px 300px 50px 500px;
+            display: inline-block;
+        }
+        #c {
+            border: 2px solid orange;
+            padding: 50px 97px 50px 96px;
+            display: inline-block;
+        }
+        #c1 {
+            border: 2px solid orangered;
+            padding: 50px 300px 50px 500px;
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ava">
+            <div id="a">avatar</div>
+            <div id="a1">some text</div>
+        </div>
+        <div class="infor">
+            <div id="i">information</div>
+            <div id="i1">some text</div>
+        </div>
+        <div class="contact">
+            <div id="c">contact</div>
+            <div id="c1">some text</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
